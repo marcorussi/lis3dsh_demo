@@ -180,6 +180,11 @@ static void LIS3DSH_init(void)
 			while(1);
 		}
 	}
+	else
+	{
+		/* ERROR: stay here... */
+		while(1);
+	}
 }
 
 
