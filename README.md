@@ -1,13 +1,9 @@
-# LIS3DSH_demo
-An application demo for STM32F4Discovery board using libopencm3 library. This demo uses the 3-axis accelerometer LIS3DSH and the LEDs on the board.
+# README
 
-For compiling the project it is necessary to download the libopencm3 library https://github.com/libopencm3/libopencm3. This project folder must be located in the same folder where libopencm3 is located. For compiling the project run:
+This is demo application for the 3-axis accelerometer LIS3DSH and the LEDs on the board using libopencm3.
 
-    $ make
+It's intended for the ST STM32F4DISCOVERY eval board. Rotating the board on each side will turn ON the closest LED to the side parallel to ground. Position the board with LED on top turns ON all the LEDs while facing the board on the ground turns them OFF.
 
-and for flashing the STM32F4Discovery board run:
+## Board connections
 
-    $ make flash
-
-The default toolchain is the same of libopencm3, an arm-none-eabi/arm-elf toolchain.
-
+*none required*
