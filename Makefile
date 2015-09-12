@@ -22,7 +22,7 @@
 ## SOFTWARE.
 ## 
 
-BINARY = LIS3DSH_demo
+BINARY = rrr_demo
 
 LDSCRIPT = ./stm32f4-discovery.ld
 
